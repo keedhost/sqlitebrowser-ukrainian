@@ -14,4 +14,4 @@ $ cd src/translations
 $ git clone https://github.com/keedhost/sqlitebrowser-ukrainian/tree/master/sqlitebrowser/src/translations
 $ cd -
 ```
-Далі - звичайна компіляція згідно інструкції DB Browser for SQLite
+Далі - звичайна [компіляція згідно інструкції](https://github.com/sqlitebrowser/sqlitebrowser/blob/master/BUILDING.md) DB Browser for SQLite
