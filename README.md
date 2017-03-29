@@ -1,5 +1,4 @@
 # Український переклад програми DB Browser for SQLite
-## Ukrainian translate for DB Browser for SQLite
 
 ## Опис
 Український переклад популярної програми для роботи з базами даних SQLite **DB Browser for SQLite** http://sqlitebrowser.org/
