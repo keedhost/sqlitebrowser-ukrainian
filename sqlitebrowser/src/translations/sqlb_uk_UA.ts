@@ -1622,7 +1622,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1925"/>
         <source>Edit the display format of the data in this column</source>
-        <translation>Редагування формату відображення для даних з цій комірці</translation>
+        <translation>Редагування формату відображення для даних у цій комірці</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1933"/>
@@ -1643,7 +1643,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1944"/>
         <source>Change the encoding of the text in the table cells</source>
-        <translation>Зміна кодування тексту в даній таблиці</translation>
+        <translation>Змінити кодування тексту в цій комірці таблиці</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1949"/>
@@ -1653,7 +1653,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1952"/>
         <source>Change the default encoding assumed for all tables in the database</source>
-        <translation>Змінити кодування за замовчуванням для всіх таблиць в базі даних</translation>
+        <translation>Змінити кодування за замовчуванням для всіх таблиць у базі даних</translation>
     </message>
     <message>
         <source>Duplicate record</source>
@@ -1828,22 +1828,22 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1252"/>
         <source>CrossSquare</source>
-        <translation>Хрест в квадраті</translation>
+        <translation>Хрест у квадраті</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1257"/>
         <source>PlusSquare</source>
-        <translation>Плюс в квадраті</translation>
+        <translation>Плюс у квадраті</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1262"/>
         <source>CrossCircle</source>
-        <translation>Хрест в колі</translation>
+        <translation>Хрест у колі</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1267"/>
         <source>PlusCircle</source>
-        <translation>Плюс в колі</translation>
+        <translation>Плюс у колі</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1272"/>
@@ -1863,7 +1863,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1322"/>
         <source>Load all data. This has only an effect if not all data has been fetched from the table yet due to the partial fetch mechanism.</source>
-        <translation>Отримати всі дані. Має ефект лише якщо не всі дані довантажено.</translation>
+        <translation>Отримати всі дані. Діє якщо не всі дані довантажено.</translation>
     </message>
     <message>
         <source>DB Schema</source>
@@ -1883,7 +1883,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1376"/>
         <source>This option is used to create a new database file.</source>
-        <translation>Ця опція використовується, щоб створити новий файл бази даних.</translation>
+        <translation>Ця опція використовується щоб створити новий файл бази даних.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1379"/>
@@ -1929,17 +1929,17 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1438"/>
         <source>This option is used to revert the current database file to its last saved state. All changes made since the last save operation are lost.</source>
-        <translation>Ця опція використовується, щоб повернути поточний файл бази даних до його останнього збереженого стану. Всі зміни, зроблені з останньої операції збереження загубляться.</translation>
+        <translation>Ця опція використовується щоб повернути поточний файл бази даних до його останнього збереженого стану. Всі зміни, зроблені з останньої операції збереження, загубляться.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1456"/>
         <source>Write changes to the database file</source>
-        <translation>Записати зміни в файл бази даних</translation>
+        <translation>Записати зміни у файл бази даних</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1459"/>
         <source>This option is used to save changes to the database file.</source>
-        <translation>Ця опція використовується, щоб зберегти зміни у файлі бази даних.</translation>
+        <translation>Ця опція використовується щоб зберегти зміни у файлі бази даних.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1462"/>
@@ -1949,13 +1949,13 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1476"/>
         <source>Compact the database file, removing space wasted by deleted records</source>
-        <translation>Ущільнити базу даних, видаляючи простір, займаний видаленими записами</translation>
+        <translation>Ущільнити базу даних, видаливши простір, зайнятий видаленими записами</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1479"/>
         <location filename="../MainWindow.ui" line="1482"/>
         <source>Compact the database file, removing space wasted by deleted records.</source>
-        <translation>Ущільнити базу даних, видаливши простір, займаний видаленими записами.</translation>
+        <translation>Ущільнити базу даних, видаливши простір, зайнятий видаленими записами.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1490"/>
@@ -1975,27 +1975,27 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="1507"/>
         <source>This option lets you import data from an .sql dump text file into a new or existing database. SQL dump files can be created on most database engines, including MySQL and PostgreSQL.</source>
-        <translation>Ця опція дозволяє імпортувати дані з текстового файлу sql в нову або існуючу базу даних. Файл SQL може бути створений на більшості двигунів баз даних, включаючи MySQL і PostgreSQL.</translation>
+        <translation>Ця опція дозволяє імпортувати дані з текстового файлу sql у нову або існуючу базу даних. Файл SQL може бути створений на більшості двигунів баз даних, включаючи MySQL і PostgreSQL.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1518"/>
         <source>Open a wizard that lets you import data from a comma separated text file into a database table.</source>
-        <translation>Відкрити майстра, який дозволяє імпортувати дані з файлу CSV в таблицю бази даних.</translation>
+        <translation>Відкрити майстра, який дозволяє імпортувати дані з файлу CSV у таблицю бази даних.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1521"/>
         <source>Open a wizard that lets you import data from a comma separated text file into a database table. CSV files can be created on most database and spreadsheet applications.</source>
-        <translation>Відкрити майстра, який дозволяє імпортувати дані з файлу CSV в таблицю бази даних. Файли CSV можуть бути створені в більшості додатків баз даних і електронних таблиць.</translation>
+        <translation>Відкрити майстра, який дозволяє імпортувати дані з файлу CSV у таблицю бази даних. Файли CSV можуть бути створені в більшості додатків баз даних і електронних таблиць.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1532"/>
         <source>Export a database to a .sql dump text file.</source>
-        <translation>Експортувати базу даних в текстовий файл .sql.</translation>
+        <translation>Експортувати базу даних у текстовий файл .sql.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1535"/>
         <source>This option lets you export a database to a .sql dump text file. SQL dump files contain all data necessary to recreate the database on most database engines, including MySQL and PostgreSQL.</source>
-        <translation>Ця опція дозволяє експортувати базу даних в текстовий файл .sql. Файли SQL містять всі дані, необхідні для створення бази даних в большистве движків баз даних, включаючи MySQL і PostgreSQL.</translation>
+        <translation>Ця опція дозволяє експортувати базу даних у текстовий файл .sql. Файли SQL містять всі дані, необхідні для створення бази даних у більшості движків баз даних, включаючи MySQL і PostgreSQL.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="1546"/>
