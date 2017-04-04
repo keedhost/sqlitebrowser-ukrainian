@@ -46,7 +46,7 @@
     <message>
         <location filename="../Application.cpp" line="72"/>
         <source>Possible command line arguments:</source>
-        <translation>Доступні ключі командної строки:</translation>
+        <translation>Доступні ключі командного рядку:</translation>
     </message>
     <message>
         <location filename="../Application.cpp" line="73"/>
@@ -123,16 +123,16 @@ Note that if you change any of the other, optional, settings you&apos;ll need to
 Leave the password fields empty to disable the encryption.
 The encryption process might take some time and you should have a backup copy of your database! Unsaved changes are applied before modifying the encryption.</source>
         <translation>Будь ласка, вкажіть ключ шифрування.
-Якщо ви зміните будь-яку опциональную настройку, то її потрібно буде вводити при кожному відкритті цього файлу бази даних.
-Залиште пароль порожнім якщо шифрування не потрібно.
-Процес може зайняти деякий час і наполегливо рекомендується створити резервну копію перед продовженням! Всі не збережені зміни автоматично будуть збережені.</translation>
+Якщо Ви зміните будь-яке опціональне налаштування, то його потрібно буде вводити при кожному відкритті цього файлу бази даних.
+Залиште пароль порожнім якщо шифрування не потрібне.
+Процес може зайняти деякий час. Рекомендується створити резервну копію перед продовженням! Всі незбережені зміни автоматично будуть збережені.</translation>
     </message>
     <message>
         <location filename="../CipherDialog.cpp" line="20"/>
         <source>Please enter the key used to encrypt the database.
 If any of the other settings were altered for this database file you need to provide this information as well.</source>
         <translation>Будь ласка, введіть ключ для шифрування бази даних.
-Якщо будь-які інші налаштування були змінені для даної бази даний то потрібно також надати цю інформацію.</translation>
+Якщо будь-які інші налаштування були змінені для цієї бази даних, то варто надати цю інформацію також.</translation>
     </message>
 </context>
 <context>
@@ -140,7 +140,7 @@ If any of the other settings were altered for this database file you need to pro
     <message>
         <location filename="../ColumnDisplayFormatDialog.ui" line="14"/>
         <source>Choose display format</source>
-        <translation>Виберіть формат відображення</translation>
+        <translation>Оберіть формат відображення</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.ui" line="20"/>
@@ -150,7 +150,7 @@ If any of the other settings were altered for this database file you need to pro
     <message>
         <location filename="../ColumnDisplayFormatDialog.ui" line="26"/>
         <source>Choose a display format for the column &apos;%1&apos; which is applied to each value prior to showing it.</source>
-        <translation>Виберіть формат відображення для колонки &apos;%1&apos;, який буде застосований до кожного її значенням.</translation>
+        <translation>Оберіть формат відображення для колонки &apos;%1&apos;. Формат буде застосований до кожного її значенням.</translation>
     </message>
     <message>
         <location filename="../ColumnDisplayFormatDialog.cpp" line="12"/>
