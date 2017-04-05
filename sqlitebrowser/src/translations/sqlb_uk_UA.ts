@@ -498,7 +498,7 @@ Aborting execution.</source>
     <message>
         <location filename="../EditDialog.ui" line="101"/>
         <source>Opens a file dialog used to export the contents of this database cell to a text file .</source>
-        <translation>Відкривається файловий діалог, щоб експортувати вміст цієї ячейки бази даних в текстовий файл.</translation>
+        <translation>Відкриває файловий діалог щоб експортувати вміст цієї комірки бази даних у текстовий файл.</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="104"/>
@@ -508,7 +508,7 @@ Aborting execution.</source>
     <message>
         <location filename="../EditDialog.ui" line="117"/>
         <source>Set this cell to NULL</source>
-        <translation>Присвоїти цій ячейці значення NULL</translation>
+        <translation>Присвоїти цій комірці значення NULL</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="123"/>
@@ -533,27 +533,27 @@ Aborting execution.</source>
     <message>
         <location filename="../EditDialog.ui" line="120"/>
         <source>Erases the contents of the cell</source>
-        <translation>Очищається вміст комірки</translation>
+        <translation>Очищення вмісту комірки</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="144"/>
         <source>This area displays information about the data present in this database cell</source>
-        <translation>Ця область відображає інформацію про дані, що знаходяться в цьій комірці бази даних</translation>
+        <translation>Ця область відображає інформацію про дані, що знаходяться в цій комірці бази даних</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="187"/>
         <source>Type of data currently in cell</source>
-        <translation>Тип даних в комірці</translation>
+        <translation>Тип даних у комірці</translation>
     </message>
     <message>
         <location filename="../EditDialog.ui" line="194"/>
         <source>Size of data currently in table</source>
-        <translation>Розмір даних в таблиці</translation>
+        <translation>Розмір даних у таблиці</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="239"/>
         <source>Choose a file</source>
-        <translation>Вибрати файл</translation>
+        <translation>Обрати файл</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="241"/>
@@ -573,7 +573,7 @@ Aborting execution.</source>
     <message>
         <location filename="../EditDialog.cpp" line="188"/>
         <source>Image data can&apos;t be viewed with the text editor</source>
-        <translation>Зображення не може бути відображено в текстовому редакторі</translation>
+        <translation>Зображення не може бути відображене в текстовому редакторі</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="216"/>
@@ -583,7 +583,7 @@ Aborting execution.</source>
     <message>
         <location filename="../EditDialog.cpp" line="483"/>
         <source>Type of data currently in cell: %1 Image</source>
-        <translation>Тип даних в комірці: %1 Зображення</translation>
+        <translation>Тип даних у комірці: %1 Зображення</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="489"/>
@@ -593,13 +593,13 @@ Aborting execution.</source>
     <message>
         <location filename="../EditDialog.cpp" line="503"/>
         <source>Type of data currently in cell: NULL</source>
-        <translation>Тип даних в комірці: NULL</translation>
+        <translation>Тип даних у комірці: NULL</translation>
     </message>
     <message>
         <location filename="../EditDialog.cpp" line="406"/>
         <location filename="../EditDialog.cpp" line="509"/>
         <source>Type of data currently in cell: Text / Numeric</source>
-        <translation>Тип даних в комірці: Текст / Числове</translation>
+        <translation>Тип даних у комірці: Текст / Числове</translation>
     </message>
     <message numerus="yes">
         <location filename="../EditDialog.cpp" line="407"/>
@@ -614,7 +614,7 @@ Aborting execution.</source>
     <message>
         <location filename="../EditDialog.cpp" line="515"/>
         <source>Type of data currently in cell: Binary</source>
-        <translation>Тип даних в комірці: Двійкові дані</translation>
+        <translation>Тип даних у комірці: Двійкові дані</translation>
     </message>
     <message numerus="yes">
         <location filename="../EditDialog.cpp" line="504"/>
@@ -647,12 +647,12 @@ Aborting execution.</source>
     <message>
         <location filename="../EditTableDialog.ui" line="62"/>
         <source>Make this a &apos;WITHOUT rowid&apos; table. Setting this flag requires a field of type INTEGER with the primary key flag set and the auto increment flag unset.</source>
-        <translation>Щоб створити таблицю &apos;БЕЗ rowid&apos;, потрібно щоб в ній був первинний ключ INTEGER з відключеним автоінкрементом.</translation>
+        <translation>Щоб створити таблицю &apos;WITHOUT rowid&apos;, потрібно щоб у ній був первинний ключ INTEGER з відключеним автоінкрементом.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="65"/>
         <source>Without Rowid</source>
-        <translation>Без rowid</translation>
+        <translation>Без ідентифікатора</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.ui" line="78"/>
@@ -765,60 +765,60 @@ Aborting execution.</source>
     <message>
         <location filename="../EditTableDialog.cpp" line="235"/>
         <source>There already is a field with that name. Please rename it first or choose a different name for this field.</source>
-        <translation>Поле з таким ім&apos;ям вже існує. Будь ласка перейменуйте його, або виберіть інше ім&apos;я для даного поля.</translation>
+        <translation>Поле з таким ім&apos;ям уже існує. Будь ласка, переіменуйте його або виберіть інше ім&apos;я для даного поля.</translation>
     </message>
     <message>
         <source>This column is referenced in a foreign key in table %1, column %2 and thus its name can not be changed.</source>
-        <translation type="obsolete">На дану колонку посилається зовнішній ключ в таблиці %1, стовнці %2, тому її ім&apos;я не може бути змінено.</translation>
+        <translation type="obsolete">На цю колонку посилається зовнішній ключ у таблиці %1, стовнці %2, тому її ім&apos;я не може бути змінено.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="258"/>
         <source>This column is referenced in a foreign key in table %1 and thus its name can not be changed.</source>
-        <translation>На дану колонку посилається зовнішній ключ в таблиці %1, тому її ім&apos;я не може бути змінено.</translation>
+        <translation>На цю колонку посилається зовнішній ключ у таблиці %1, тому її ім&apos;я не може бути змінено.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="328"/>
         <source>There is at least one row with this field set to NULL. This makes it impossible to set this flag. Please change the table data first.</source>
-        <translation>Існує принаймні один рядок, де це поле встановлено в NULL. Встановити цей прапор не можна. Спочатку змініть дані таблиці.</translation>
+        <translation>Існує принаймні один рядок де це поле встановлено в NULL. Встановити цей прапорець неможливо. Спочатку змініть дані таблиці.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="355"/>
         <source>There is at least one row with a non-integer value in this field. This makes it impossible to set the AI flag. Please change the table data first.</source>
-        <translation>Існує принаймні один рядок, де це поле містить нечислове значення. Встановити прапор АІ не можна. Спочатку змініть дані таблиці.</translation>
+        <translation>Існує принаймні один рядок, де це поле містить нечислове значення. Встановити прапорець АІ неможливо. Спочатку змініть дані таблиці.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="399"/>
         <source>Column &apos;%1&apos; has no unique data.
 </source>
-        <translation>Стовпець &apos;%1&quot; містить не унікальні дані.</translation>
+        <translation>Стовпець &apos;%1&quot; не містить унікальних даних.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="400"/>
         <source>This makes it impossible to set this flag. Please change the table data first.</source>
-        <translation>Неможливо. Для початку, змініть дані таблиці.</translation>
+        <translation>Неможливо поставити цей прапорець. Спочатку змініть табличні дані.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="467"/>
         <source>Modifying this column failed. Error returned from database:
 %1</source>
-        <translation type="unfinished">Неможливо змінити цю строку. Повідомлення від БД:
+        <translation type="unfinished">Неможливо змінити цей рядок. Повідомлення про помилку від БД:
 %1</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="550"/>
         <source>Are you sure you want to delete the field &apos;%1&apos;?
 All data currently stored in this field will be lost.</source>
-        <translation>Видалити поле &apos;%1&apos;?
-Всі дані, які в даний момент збережені в цьому полі, будуть втрачені.</translation>
+        <translation>Ви впевнені, що хочете видалити поле &apos;%1&apos;?
+Всі дані, які містяться в цьому полі, будуть втрачені.</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="663"/>
         <source>Please add a field which meets the following criteria before setting the without rowid flag:
 - Primary key flag set
 - Auto increment disabled</source>
-        <translation>Перед тим як застосовувати прапор без rowid, будь ласка переконайтеся, що існує стовпець, який:
-- є первинний ключем
-- для нього відключений автоінкремент</translation>
+        <translation>Будь ласка, додайте поле, яке відповідає насупним критеріям перед встановлення прапорцю без rowid:
+- встановлено прапорець первинного ключа
+- відключений автоінкремент</translation>
     </message>
     <message>
         <location filename="../EditTableDialog.cpp" line="691"/>
