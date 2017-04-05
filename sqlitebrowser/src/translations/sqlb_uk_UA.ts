@@ -278,17 +278,17 @@ If any of the other settings were altered for this database file you need to pro
     <message>
         <location filename="../sqlitedb.cpp" line="171"/>
         <source>Please specify the database name under which you want to access the attached database</source>
-        <translation></translation>
+        <translation>Будь ласка, вкажіть ім'я бази даних, під яким Ви хочете отримати доступ до підключених баз даних</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="420"/>
         <source>Do you want to save the changes made to the database file %1?</source>
-        <translation>Зберегти зроблені зміни в файлі бази даних %1?</translation>
+        <translation>Зберегти зроблені зміни у файлі бази даних %1?</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="478"/>
         <source>Exporting database to SQL file...</source>
-        <translation>Експорт бази даних в файл SQL...</translation>
+        <translation>Експорт бази даних у файл SQL...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="479"/>
@@ -311,7 +311,7 @@ If any of the other settings were altered for this database file you need to pro
         <location filename="../sqlitedb.cpp" line="715"/>
         <source>Error in statement #%1: %2.
 Aborting execution.</source>
-        <translation>Помилка в операторі #%1: %2. Переривання виконання.</translation>
+        <translation>Помилка в операторі #%1: %2. Виконання зупинено.</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1000"/>
@@ -326,35 +326,35 @@ Aborting execution.</source>
     <message>
         <location filename="../sqlitedb.cpp" line="1017"/>
         <source>renameColumn: creating savepoint failed. DB says: %1</source>
-        <translation>renameColumn: помилка створення точки збереження. БД каже: %1</translation>
+        <translation>renameColumn: помилка створення точки збереження. БД говорить: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1065"/>
         <source>renameColumn: creating new table failed. DB says: %1</source>
-        <translation>renameColumn: помилка створення нової таблиці. БД каже: %1</translation>
+        <translation>renameColumn: помилка створення нової таблиці. БД говорить: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1074"/>
         <source>renameColumn: copying data to new table failed. DB says:
 %1</source>
-        <translation>renameColumn: помилка копіювання даних в нову таблицю. БД каже:
+        <translation>renameColumn: помилка копіювання даних у нову таблицю. БД говорить:
 %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1100"/>
         <source>renameColumn: deleting old table failed. DB says: %1</source>
-        <translation>renameColumn: помилка видалення старої таблиці. БД каже: %1</translation>
+        <translation>renameColumn: помилка видалення старої таблиці. БД говорить: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1119"/>
         <source>Restoring some of the objects associated with this table failed. This is most likely because some column names changed. Here&apos;s the SQL statement which you might want to fix and execute manually:
 </source>
-        <translation>Не вдалося скасувати видалення деяких об&apos;єктів, асоційованих з цією таблицею. Найбільш ймовірна причина цього - зміна імен деяких стовпців таблиці. Ось SQL оператор, який потрібно виправити і виконати вручну:</translation>
+        <translation>Не вдалося скасувати видалення деяких об&apos;єктів, асоційованих із цією таблицею. Найбільш імовірна причина цього - зміна імен деяких стовпців таблиці. Ось SQL оператор, який потрібно виправити і виконати вручну:</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1128"/>
         <source>renameColumn: releasing savepoint failed. DB says: %1</source>
-        <translation>renameColumn: помилка звільнення точки збереження. БД каже: %1</translation>
+        <translation>renameColumn: помилка звільнення точки збереження. БД говорить: %1</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1142"/>
@@ -366,7 +366,7 @@ Aborting execution.</source>
     <message>
         <location filename="../sqlitedb.cpp" line="1187"/>
         <source>... &lt;string can not be logged, contains binary data &gt; ...</source>
-        <translation>... &lt;рядок не може бути записаний у лог-файл, так як містить двійкові дані &gt;...</translation>
+        <translation>... &lt;рядок не може бути записаний у лог-файл, оскільки містить двійкові дані &gt;...</translation>
     </message>
     <message>
         <location filename="../sqlitedb.cpp" line="1227"/>
@@ -429,7 +429,7 @@ Aborting execution.</source>
     <message>
         <location filename="../DbStructureModel.cpp" line="145"/>
         <source>Browsables (%1)</source>
-        <translation>Переглядаємі (%1)</translation>
+        <translation>Можна переглянути (%1)</translation>
     </message>
     <message>
         <location filename="../DbStructureModel.cpp" line="150"/>
