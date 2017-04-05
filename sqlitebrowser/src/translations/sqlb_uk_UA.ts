@@ -824,7 +824,7 @@ All data currently stored in this field will be lost.</source>
         <location filename="../EditTableDialog.cpp" line="691"/>
         <source>Setting the rowid column for the table failed. Error message:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Не вдалося встановити rowid стовпець для таблиці. Повідомлення помилки:</translation>
     </message>
 </context>
 <context>
@@ -832,7 +832,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.ui" line="14"/>
         <source>Export data as CSV</source>
-        <translation>Експортувати дані в форматі CSV</translation>
+        <translation>Експортувати дані у форматі CSV</translation>
     </message>
     <message>
         <source>&amp;Table(s)</source>
@@ -891,7 +891,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.ui" line="152"/>
         <source>&amp;Quote character</source>
-        <translation>&amp;Символ лапки</translation>
+        <translation>&amp;Символ лапок</translation>
     </message>
     <message>
         <location filename="../ExportDataDialog.ui" line="177"/>
@@ -958,7 +958,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportDataDialog.cpp" line="329"/>
         <source>Export completed.</source>
-        <translation>Експорт завершений.</translation>
+        <translation>Експорт завершено.</translation>
     </message>
 </context>
 <context>
@@ -976,7 +976,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.ui" line="63"/>
         <source>Select All</source>
-        <translation>Вибрати все</translation>
+        <translation>Обрати все</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="70"/>
@@ -991,7 +991,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.ui" line="85"/>
         <source>Keep column names in INSERT INTO</source>
-        <translation>Ім&apos;я стовпців в виразі INSERT INTO</translation>
+        <translation>Ім&apos;я стовпців у виразі INSERT INTO</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.ui" line="95"/>
@@ -1016,7 +1016,7 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="75"/>
         <source>Please select at least 1 table.</source>
-        <translation>ласка, виберіть хоча б одну таблицю.</translation>
+        <translation>Будь ласка, виберіть хоча б одну таблицю.</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="88"/>
@@ -1031,12 +1031,12 @@ All data currently stored in this field will be lost.</source>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="117"/>
         <source>Export completed.</source>
-        <translation>Експорт завершений.</translation>
+        <translation>Експорт завершено.</translation>
     </message>
     <message>
         <location filename="../ExportSqlDialog.cpp" line="119"/>
         <source>Export cancelled or failed.</source>
-        <translation>Експорт скасований або виникли помилки.</translation>
+        <translation>Експорт скасовано або виникла помилка.</translation>
     </message>
 </context>
 <context>
@@ -1118,7 +1118,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../ImportCsvDialog.ui" line="118"/>
         <source>&amp;Quote character</source>
-        <translation>&amp;Символ лапки</translation>
+        <translation>&amp;Символ лапок</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.ui" line="131"/>
@@ -1168,7 +1168,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="194"/>
         <source>There is already a table of that name and an import into an existing table is only possible if the number of columns match.</source>
-        <translation>Вже існує таблиця з таким же ім&apos;ям, імпорт в існуючу таблицю можливий, тільки якщо число стовпців збігається.</translation>
+        <translation>Вже існує таблиця з таким самим ім&apos;ям, імпорт в існуючу таблицю можливий тільки якщо число стовпців збігається.</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="197"/>
@@ -1188,7 +1188,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="241"/>
         <source>Missing field for record %1</source>
-        <translation>Пропущений стовпець для запису %1</translation>
+        <translation>Пропущено стовпець для запису %1</translation>
     </message>
     <message>
         <location filename="../ImportCsvDialog.cpp" line="249"/>
@@ -1216,12 +1216,12 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="102"/>
         <source>Select a table to browse data</source>
-        <translation>Виберіть таблицю для перегляду даних</translation>
+        <translation>Оберіть таблицю для перегляду даних</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="105"/>
         <source>Use this list to select a table to be displayed in the database view</source>
-        <translation>Використовуйте цей список, щоб вибрати таблицю, яка повинна бути відображена для перегляду бази даних</translation>
+        <translation>Використовуйте цей список щоб вибрати таблицю, яка відобразиться у переглядачі баз даних</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="118"/>
@@ -1231,7 +1231,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="121"/>
         <source>This button refreshes the data in the currently selected table.</source>
-        <translation>Ця кнопка оновлює дані обраної в даний момент таблиці.</translation>
+        <translation>Ця кнопка оновлює дані обраної на цей момент таблиці.</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -1245,7 +1245,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="162"/>
         <source>Insert a new record in the current table</source>
-        <translation>Додати новий запис в поточну таблицю</translation>
+        <translation>Додати новий запис у поточну таблицю</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="80"/>
@@ -1255,7 +1255,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="165"/>
         <source>This button creates a new, empty record in the database</source>
-        <translation>Ця кнопка створює новий, порожній запис в таблиці</translation>
+        <translation>Ця кнопка створює новий, порожній запис у таблиці</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="168"/>
@@ -1280,7 +1280,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="193"/>
         <source>This is the database view. You can double-click any record to edit its contents in the cell editor window.</source>
-        <translation>Це перегляд бази даних. Зробіть подвійне клацання по будь-якому запису, щоб відредагувати його вміст.</translation>
+        <translation>Це переглядач баз даних. Зробіть подвійне клацання по будь-якому запису щоб відредагувати його вміст.</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="220"/>
@@ -1290,7 +1290,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="223"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clicking this button navigates to the beginning in the table view above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натискання цієї кнопки переводить до початку в таблиці вище.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натискання цієї кнопки переміщує до початку в таблиці вище.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="226"/>
@@ -1305,7 +1305,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="243"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clicking this button navigates 100 records upwards in the table view above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натискання цієї кнопки до переміщення на 100 записів вгору в табличному поданні&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натискання цієї кнопки переміщує на 100 записів вгору у таблиці вище&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="246"/>
@@ -1325,7 +1325,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="270"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clicking this button navigates 100 records downwards in the table view above.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натискання цієї кнопки до переміщення на 100 записів вниз в табличному поданні вище&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натискання цієї кнопки переміщує на 100 записів вниз у таблиці вище&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="273"/>
@@ -1350,12 +1350,12 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="317"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt; Click here to jump to the specified record&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натисніть тут, щоб перейти до зазначеного запису&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Натисніть тут щоб перейти до зазначеного запису&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="320"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This button is used to navigate to the record number specified in the Go to area.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ця кнопка використовується, щоб переміститися до запису, номер якої зазначений в області Перейти до &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ця кнопка використовується щоб переміститися до запису, номер якого зазначений в області Перейти до &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="323"/>
@@ -1370,7 +1370,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="333"/>
         <source>Type a record number in this area and click the Go to: button to display the record in the database view</source>
-        <translation>Надрукуйте номер запису в цій області і натисніть кнопку Перейти до:, щоб відобразити запис в поданні бази даних</translation>
+        <translation>Надрукуйте номер запису в цій області й натисніть кнопку Перейти до: щоб відобразити запис у поданні бази даних</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="336"/>
@@ -1444,7 +1444,7 @@ Do you want to insert it anyway?</source>
     <message>
         <location filename="../MainWindow.ui" line="529"/>
         <source>Persist</source>
-        <translation>Persist</translation>
+        <translation>Продовжити</translation>
     </message>
     <message>
         <location filename="../MainWindow.ui" line="534"/>
